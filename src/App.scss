@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #000;
+  color: #fff;
+}
+
+.header {
+  background-color: green;
+  &-h1 {
+    color: red;
+  }
+  &:before {
+    content: "";
+    background-image: url("./bg.jpg");
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.results {
+  width: 100%;
+  padding: 0.5rem;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    &-item {
+      display: flex;
+      margin: 0.5rem 0;
+    }
+  }
+}
