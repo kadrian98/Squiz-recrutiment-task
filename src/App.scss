@@ -37,6 +37,10 @@
     &-item {
       display: flex;
       margin: 0.5rem 0;
+
+      h5 {
+        margin: 0 4px;
+      }
     }
   }
 }

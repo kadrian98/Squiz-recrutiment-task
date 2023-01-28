@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function SortData() {
   return (
-    <div class="custom-select">
+    <div className="custom-select">
       {/* <select>
         <option value="0">Sort by:</option>
         <option value="1">Name</option>
